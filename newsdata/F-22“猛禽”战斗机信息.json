@@ -1,0 +1,60 @@
+[
+    {
+        "node": [
+            {"category":0,"id": "0", "name": "F-22"},
+            {"category":1,"id": "1", "name": "外形尺寸"},
+            {"category":2,"id": "2", "name": "成员"},{"category":3,"id": "30", "name": "1"},
+            {"category":2,"id": "3", "name": "全长"},{"category":3,"id": "31", "name": "18.92m"},
+            {"category":2,"id": "4", "name": "翼展"},{"category":3,"id": "32", "name": "13.56m"},
+            {"category":2,"id": "5", "name": "全高"},{"category":3,"id": "33", "name": "5.08m"},
+            {"category":2,"id": "6", "name": "机翼面积"},{"category":3,"id": "34", "name": "78.04m²"},
+            {"category":2,"id": "7", "name": "空重"},{"category":3,"id": "35", "name": "16329kg"},
+            {"category":1,"id": "8", "name": "重量载荷"},
+            {"category":2,"id": "9", "name": "最大起飞重量"},{"category":3,"id": "36", "name": "38000kg"},
+            {"category":2,"id": "10","name": "最大载油量"},{"category":3,"id": "37", "name": "8000kg"},
+            {"category":2,"id": "11", "name": "最大武器载荷"},{"category":3,"id": "38", "name": "6500kg"},
+            {"category":1,"id": "12", "name": "动力装置"},
+            {"category":2,"id": "13", "name": "F119-PW-100涡扇发动机"},
+            {"category":1,"id": "14", "name": "机载设备"},
+            {"category":2,"id": "15", "name": "航电"},{"category":3,"id": "39", "name": "中央数据综合处理系统"},
+            {"category":2,"id": "16", "name": "雷达"},{"category":3,"id": "40", "name": "F-22的AN/APG-77雷达"},
+            {"category":1,"id": "19", "name": "武器设备"},
+            {"category":2,"id": "20", "name": "机炮"},{"category":3,"id": "41", "name": "1门20mm M61A2火神式六管旋转机炮，配有480发炮弹"},
+            {"category":2,"id": "22", "name": "空对空模式"},
+            {"category":3,"id": "42", "name": "6枚AIM-120"},
+            {"category":3,"id": "24", "name": "2枚AIM-9响尾蛇导彈或AIM-132"},
+            {"category":2,"id": "25", "name": "空对地模式"},
+            {"category":3,"id": "26", "name": "2枚AIM-120先进中程空对空导彈、2枚AIM-9响尾蛇导彈或AIM-132"},{"category":3,"id": "43", "name": "8枚GBU-39小直径炸弹"},
+            {"category":3,"id": "28", "name": "2枚GBU-32联合直接攻击弹药"},{"category":3,"id": "44", "name": "2枚风偏修正弹药洒布器"}
+                    
+        ]
+    },
+    {
+        "link": [
+            {"source" : "0", "target" : "1", "value" : ""},
+            {"source" : "1", "target" : "2", "value" : ""},{"source" : "2", "target" : "30", "value" : ""},
+            {"source" : "1", "target" : "3", "value" : ""},{"source" : "3", "target" : "31", "value" : ""},
+            {"source" : "1", "target" : "4", "value" : ""},{"source" : "4", "target" : "32", "value" : ""},
+            {"source" : "1", "target" : "5", "value" : ""},{"source" : "5", "target" : "33", "value" : ""},
+            {"source" : "1", "target" : "6", "value" : ""},{"source" : "6", "target" : "34", "value" : ""},
+            {"source" : "1", "target" : "7", "value" : ""},{"source" : "7", "target" : "35", "value" : ""},
+            {"source" : "0", "target" : "8", "value" : ""},
+            {"source" : "8", "target" : "9", "value" : ""},{"source" : "9", "target" : "36", "value" : ""},
+            {"source" : "8", "target" : "10", "value" : ""},{"source" : "10", "target" : "37", "value" : ""},
+            {"source" : "8", "target" : "11", "value" : ""},{"source" : "11", "target" : "38", "value" : ""},
+            {"source" : "0", "target" : "12", "value" : ""},{"source" : "12", "target" : "13", "value" : ""},
+            {"source" : "0", "target" : "14", "value" : ""},
+            {"source" : "14", "target" : "15", "value" : ""},{"source" : "15", "target" : "39", "value" : ""},
+            {"source" : "14", "target" : "16", "value" : ""},{"source" : "16", "target" : "40", "value" : ""},
+            {"source" : "0", "target" : "19", "value" : ""},
+            {"source" : "19", "target" : "20", "value" : ""},{"source" : "20", "target" : "41", "value" : ""},
+            {"source" : "19", "target" : "22", "value" : ""},
+            {"source" : "22", "target" : "42", "value" : ""},{"source" : "22", "target" : "24", "value" : ""},
+            {"source" : "19", "target" : "25", "value" : ""},
+            {"source" : "25", "target" : "28", "value" : ""},
+            {"source" : "25", "target" : "26", "value" : ""},
+            {"source" : "25", "target" : "43", "value" : ""},
+            {"source" : "25", "target" : "44", "value" : ""}
+        ]
+    }
+]

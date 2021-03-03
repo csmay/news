@@ -1,0 +1,51 @@
+[
+    {
+        "node":[
+            {"category":0,"id": "0", "name": "辽宁舰"},
+            {"category":1,"id": "1", "name": "基本数据"},
+            {"category":2,"id": "2", "name": "舰长304米"},
+            {"category":2,"id": "3", "name": "水线281米"},
+            {"category":2,"id": "4", "name": "舰宽70.5米"},
+            {"category":2,"id": "5", "name": "吃水10.5米"},
+            {"category":1,"id": "6", "name": "飞行甲板"},
+            {"category":2,"id": "7", "name": "长300米"},
+            {"category":2,"id": "8", "name": "宽70米"},
+            {"category":1,"id": "9", "name": "排水量"},
+            {"category":2,"id": "10", "name": "标准57000吨"},
+            {"category":2,"id": "11", "name": "满载67500吨"},
+            {"category":1,"id": "12", "name": "武器装备"},
+            {"category":2,"id": "13", "name": "FL-3000N型24联装近程舰对空导弹"},
+            {"category":2,"id": "14", "name": "1130型11管近防炮"},
+            {"category":2,"id": "15", "name": "10管反潜火箭深弹发射器"},
+            {"category":2,"id": "16", "name": "歼-15舰载战斗机"},
+            {"category":2,"id": "17", "name": "直9舰载反潜/多用途直升机"},
+            {"category":2,"id": "18", "name": "直8型运输直升机"},
+            {"category":2,"id": "19", "name": "卡-28反潜直升机"},
+            {"category":2,"id": "20", "name": "卡-31预警直升机"},
+            {"category":1,"id": "21", "name": "电子设备"},
+            {"category":2,"id": "22", "name": "舰载对海搜索雷达"},
+            {"category":2,"id": "23", "name": "卫星通讯天线"},
+            {"category":2,"id": "24", "name": "有源相控阵雷达"},
+            {"category":2,"id": "25", "name": "备用雷达为“顶板”雷达系统"}
+        ]
+    },
+    {
+        "link":[
+            {"source" : "0", "target" : "1", "value" : ""},
+            {"source" : "1", "target" : "2", "value" : ""},{"source" : "1", "target" : "3", "value" : ""},
+            {"source" : "1", "target" : "4", "value" : ""},{"source" : "1", "target" : "5", "value" : ""},
+            {"source" : "0", "target" : "6", "value" : ""},
+            {"source" : "6", "target" : "7", "value" : ""},{"source" : "6", "target" : "8", "value" : ""},
+            {"source" : "0", "target" : "9", "value" : ""},
+            {"source" : "9", "target" : "10", "value" : ""},{"source" : "9", "target" : "11", "value" : ""},
+            {"source" : "0", "target" : "12", "value" : ""},
+            {"source" : "12", "target" : "13", "value" : ""},{"source" : "12", "target" : "17", "value" : ""},
+            {"source" : "12", "target" : "14", "value" : ""},{"source" : "12", "target" : "18", "value" : ""},
+            {"source" : "12", "target" : "15", "value" : ""},{"source" : "12", "target" : "19", "value" : ""},
+            {"source" : "12", "target" : "16", "value" : ""},{"source" : "12", "target" : "20", "value" : ""},
+            {"source" : "0", "target" : "21", "value" : ""},
+            {"source" : "21", "target" : "22", "value" : ""},{"source" : "21", "target" : "24", "value" : ""},
+            {"source" : "21", "target" : "23", "value" : ""},{"source" : "21", "target" : "25", "value" : ""}
+        ]
+    }
+]
